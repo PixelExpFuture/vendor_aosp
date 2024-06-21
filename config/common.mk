@@ -103,7 +103,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/aosp/overlay
 
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/aosp/overlay/common
+    vendor/aosp/overlay/common \
+    vendor/aosp/overlay/no-rro
 
 # TouchGestures
 PRODUCT_PACKAGES += \
